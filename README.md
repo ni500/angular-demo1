@@ -1,27 +1,52 @@
-# AppReservas
+# Demo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Demo por [Nicolás Contreras](https://twitter.com/ni500)
 
-## Development server
+Material Design, Routing, Firebase, Firestore, Authentication
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Generado con Angular v7.3.9 // Node v10.15.3
 
-## Code scaffolding
+## Links importantes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular Docs](https://angular.io/docs)
+- [Angular Material](https://material.angular.io)
+- [Firebase Docs](https://firebase.google.com/docs)
+- [Angular Fire](https://github.com/angular/angularfire2)
 
-## Build
+## Requerimientos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Instalar Node con NVM
 
-## Running unit tests
+Si ya tienes una versión de Node y no la instalaste con NVM, te recomiendo la borres y vuelvas a hacerlo en caso que estés trabajando en carios proyectos. Recomiento [este artículo](http://bit.ly/install-node-nvm) para entender mejor lo que se está haciendo.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+node -v
+```
 
-## Running end-to-end tests
+- Instala NVM
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
 
-## Further help
+- Cierra la terminal con `CMD + Q` y vuélvela a abrir.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Instala la última versión estable de Node y comprueba que sea la que esté corriendo tu máquina
+
+```bash
+nvm install v10.15.3
+nvm use v10.15.3
+node -v
+```
+
+- Instala el Angular CLI
+
+```bash
+npm install -g @angular/cli
+```
+
+- Instala el Firebase CLI
+
+```bash
+npm install -g firebase-tools
+```
