@@ -1,0 +1,19 @@
+/* Add application styles & imports to this file! */
+$margin-promotion-sections: 60px;
+$margin-promotion-sections-small: 15px;
+
+.full-height {
+  height: 100%;
+}
+.bg-light {
+  background-color: #f2f2f2;
+}
+
+.header-background {
+  overflow: hidden;
+  background-color: rgba(143, 35, 170, 0.8);
+  height: 350px;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding-top: $margin-promotion-sections;
+}

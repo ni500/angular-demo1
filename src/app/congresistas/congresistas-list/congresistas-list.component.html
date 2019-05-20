@@ -1,18 +1,21 @@
 <div class="pad">
-  <mat-card
+  <div
     *ngFor="let congresista of congresistas"
     [routerLink]="['/congresistas/', congresista.id]"
     style="cursor: pointer;"
+    class="mt-15"
   >
-    <mat-card-header>
-      <mat-card-title>{{ congresista.name }}</mat-card-title>
-      <mat-card-subtitle>@ {{ congresista.twitter }}</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      {{ congresista.about }}
-    </mat-card-content>
-    <mat-card-actions align="start">
-      <!-- <button mat-button (click)="(onAction1)">Action1</button> -->
-    </mat-card-actions>
-  </mat-card>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ congresista.name }}</mat-card-title>
+        <mat-card-subtitle>@ {{ congresista.twitter }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        {{ congresista.about }}
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <!-- <button mat-button (click)="(onAction1)">Action1</button> -->
+      </mat-card-actions>
+    </mat-card>
+  </div>
 </div>
