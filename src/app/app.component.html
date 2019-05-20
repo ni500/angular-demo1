@@ -3,6 +3,7 @@
 <app-navbar [navTitle]="title" (openNav)="sideNav.toggle()" class="header"></app-navbar>
 <mat-sidenav-container>
   <mat-sidenav #sidenav mode="side" class="main-sidenav">
+    <div class="header-spacer"></div>
     <div ngClass="mat-title" class="pad mt-15">The Neocratia movement</div>
     <mat-nav-list role="navigation">
       <a mat-list-item href="https://neocratium.org" target="_blank">Neocratia</a>
@@ -19,5 +20,6 @@
   <mat-sidenav-content>
     <div class="header-spacer"></div>
     <router-outlet></router-outlet>
+    <div class="header-spacer-full"></div>
   </mat-sidenav-content>
 </mat-sidenav-container>

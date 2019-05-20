@@ -1,0 +1,12 @@
+<p>
+  home-page works!
+</p>
+<div *ngIf="loginService.user | async; then authenticated; else guest"></div>
+<ng-template #authenticated>
+  <span>Logoueado como: </span><span>{{ user | async | json }}</span>
+  <button mat-button (click)="singOut()">Cerrar sesión</button>
+  <app-add-new-congresista> </app-add-new-congresista>
+</ng-template>
+<ng-template #guest>
+  <button mat-button (click)="googleLogin()">Login con Google</button>
+</ng-template>
