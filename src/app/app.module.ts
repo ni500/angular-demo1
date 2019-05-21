@@ -8,7 +8,7 @@ import { ProyectosModule } from './proyectos/proyectos.module';
 import { VotosModule } from './votos/votos.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
-import { NgMaterialModule } from './pages/ng-material/ng-material.module';
+import { NgMaterialModule } from './shared/ng-material/ng-material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CongresistasServicesService } from './congresistas/congresistas-services.service';
 
