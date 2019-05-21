@@ -2,10 +2,13 @@
   <button mat-icon-button (click)="openSideNav('openMenu')">
     <mat-icon class="material-icons md-36">menu</mat-icon>
   </button>
+  <button mat-button [routerLink]="['/']">
+    Inicio
+  </button>
   <button mat-button [routerLink]="['/congresistas']">
     Congresistas
   </button>
-  <button mat-button [routerLink]="['/']">
-    Apoya esta causa
-  </button>
+  <a mat-raised-button color="accent" href="https://vaki.co/trabajenvagos" target="_blank"
+    >Apoya esta causa</a
+  >
 </mat-toolbar>
