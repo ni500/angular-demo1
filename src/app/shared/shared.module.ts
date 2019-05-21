@@ -1,8 +1,7 @@
-import { CongresistasModule } from './../congresistas/congresistas.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
-import { NgMaterialModule } from '../pages/ng-material/ng-material.module';
+import { NgMaterialModule } from './ng-material/ng-material.module';
 import { RouterModule } from '@angular/router';
 import { HomePageComponent } from '../pages/home-page/home-page.component';
 import { CoreModule } from '../core/core.module';

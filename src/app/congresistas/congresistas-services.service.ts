@@ -14,7 +14,6 @@ import { MatSnackBar } from '@angular/material';
 export class CongresistasServicesService {
   congresistasCollection: AngularFirestoreCollection<any>;
   congresistas$: Observable<any>;
-  congresista: any;
 
   constructor(private afs: AngularFirestore, public snackBar: MatSnackBar) {}
 
